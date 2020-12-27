@@ -40,7 +40,7 @@ Install Others Requirements
 
 ## Usage
 ```shell
-python3 segmentation.py --input=data/LC08_220069_20190707.tif --output=data/output.tif --scale_level=0.9 --smoth=True
+python3 segmentation.py --input=data/LC08_220069_20190707.tif --output=data/output.tif --scale_level=0.8 --smoth=True
 
 python3 polygonize.py --input=data/output.tif --output=data/output.gpkg
 
